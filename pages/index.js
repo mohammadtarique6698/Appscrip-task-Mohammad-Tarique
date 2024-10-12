@@ -1,9 +1,11 @@
 import ProductDisplay from "@/pages/components/Product_Display";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <ProductDisplay />
     </div>
   );
-}
+};
+
+export default Home;
