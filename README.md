@@ -1,40 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# E commerce Landing Page
 
-## Getting Started
+This README provides a comprehensive overview of the E commerce Landing Page, a prototype landing page of an e-commerce website built using Next.js, pure CSS, and React Icons. It features a fully responsive design tailored for optimal viewing across various devices.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Responsive Design](#responsive-design)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+E commerce Landing Page is a prototype landing page for an e-commerce website. It is built with Next.js, styled using pure CSS, and utilizes `react-icons` for iconography. The component is designed to be fully responsive, ensuring a seamless user experience across all devices.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohammadtarique6698/Appscrip-task-Mohammad-Tarique.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd your-project-directory
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the project:
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Responsive Design
 
-## Learn More
+The component adjusts its layout based on the window width to provide an optimal user experience across different devices.
+- Small screens (<= 768px): Displays fewer columns and a simplified UI.
+- Medium screens (<= 480px): Adjusts layout for readability.
+- Large screens (> 768px): Displays more columns and a detailed UI.
 
-To learn more about Next.js, take a look at the following resources:
+## Dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- `react-icons`: Provides icons for UI elements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! Please follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeatureName`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/YourFeatureName`.
+5. Open a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
