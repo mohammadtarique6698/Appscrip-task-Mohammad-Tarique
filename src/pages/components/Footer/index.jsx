@@ -11,7 +11,7 @@ import PayPal from "../../../../public/Images/payments/paypal.svg";
 import Amex from "../../../../public/Images/payments/amex.svg";
 import Applepay from "../../../../public/Images/payments/applepay.svg";
 import Opay from "../../../../public/Images/payments/opay.svg";
-import United_Logo from "../../../../public/Images/United_states.svg";
+import United_Logo from "../../../../public/Images/united_states.svg";
 
 const Footer = () => {
   const [isMobile, setIsMobile] = useState(false);
