@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
+import Image1 from "../../../../public/Images/Image1.webp";
 import Favourite from "../../../../public/Images/favourite.svg";
 import RedFavourite from "../../../../public/Images/redfavourite.svg";
 
 const ProductDisplay = ({
   productName = "PPXOC Milkyway dress in pressed flowers",
   productDescription = "Sign in or Create an account to see pricing",
-  imageUrl = "/img_front_pic.png",
 }) => {
   const [isFavourite, setIsFavourite] = useState(false);
 
@@ -36,7 +36,7 @@ const ProductDisplay = ({
         }}
       >
         <Image
-          src={imageUrl}
+          src={Image1}
           alt={productName}
           width={300}
           height={398}
