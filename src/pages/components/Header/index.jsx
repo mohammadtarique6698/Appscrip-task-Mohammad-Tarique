@@ -36,7 +36,7 @@ const Header = () => {
           justifyContent: "space-between",
           width: "100%",
           backgroundColor: "#ffffff",
-          padding: "1.5rem 0",
+          padding: "2rem 0",
         }}
       >
         <div
